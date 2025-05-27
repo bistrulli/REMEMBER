@@ -1,6 +1,6 @@
 # REMEMBER: Uncovering Complex Temporal Dependencies in Process Logs with Variable Length Markov Chains
 
-This repository contains the source code and necessary files for **REMEMBER**, a tool for analyzing process logs and uncovering complex temporal dependencies using Variable Length Markov Chains (VLMCs). This work has been submitted to the 23rd International Conference on Business Process Management (BPM 2025) under the title: "REMEMBER: Uncovering Complex Temporal Dependencies in Process Logs with Variable Length Markov Chains".
+This repository contains the source code and necessary files for **REMEMBER**, a tool for analyzing process logs and uncovering complex temporal dependencies using Variable Length Markov Chains (VLMCs). This work has been submitted to the 23rd International Conference on Business Process Management (BPM 2025).
 
 ---
 
@@ -47,7 +47,18 @@ The core logic is implemented in `vlmcProcessMining.py` and utilizes external Ja
 
 ## Setup Instructions
 
-### Prerequisites
+### Using with Google Colab
+
+You can run the example notebook directly in Google Colab using the following link:
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bistrulli/REMEMBER/blob/main/replicateExp.ipynb)
+
+Simply open the notebook in Colab, and you can run the cells to see REMEMBER in action.
+```
+
+### Local Installation
+
+#### Prerequisites
 Ensure you have the following installed:
 - Python (>= 3.8)
 - `pip` (Python package manager)
@@ -109,20 +120,6 @@ The `vlmcProcessMining.py` script provides the core functionalities of REMEMBER.
     - `trace2ecf.jar`: Used for converting event log traces into the ECF (Event Collection Format) required by `jfitVlmc.jar`.
 - **`LICENSE`**: Contains the licensing information for this software.
 - **`.gitignore`**: Specifies files and directories that Git should ignore.
-
----
-
-## Citation
-If you use REMEMBER in your research or work, please cite our paper (once published):
-
-```
-REMEMBER: Uncovering Complex Temporal Dependencies in Process Logs with Variable Length Markov Chains
-(Submitted to BPM 2025)
-```
-You can also refer to the original paper that introduced the VLMC-based stochastic conformance checking:
-```
-Stochastic Conformance Checking based on Variable-length Markov Chains
-```
 
 ---
 
