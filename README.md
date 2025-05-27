@@ -54,7 +54,6 @@ You can run REMEMBER notebook directly in Google Colab using the following link:
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bistrulli/REMEMBER/blob/main/replicateExp.ipynb)
 
 Simply open the notebook in Colab, and you can run the cells to see REMEMBER in action.
-```
 
 ### Local Installation
 
@@ -65,6 +64,7 @@ Ensure you have the following installed:
 - Java (>= 17) (Ensure `java` is in your system's PATH)
 
 ### Step 1: Clone the Repository
+
 ```bash
 git clone <repository-url>
 cd REMEMBER # Or your chosen directory name
