@@ -246,23 +246,6 @@ def stochLanguage(trace=None):
 	L=list(dict.fromkeys(matches))
 	return L
 
-
-def computeConfusion(vlmcs=None, traces=None, expName="confusion"):
-	confusion=np.zeros([len(traces),len(vlmcs)])
-	for tracesIdx in range(len(traces)):
-		lik = None
-		for vlmcIdx in range(len(vlmcs)):
-			vlmc = vlmcs[vlmcIdx]
-			getLikelyhood(ecfFile=os.path.join("data", "VLMC",
-											   "%s.ecf" % (vlmc)),
-											   infile=os.path.join("data", "converted", "%s.txt" % (vlmc)),
-						vlmcfile=os.path.join("data", "VLMC", "%s_2.vlmc" % (vlmc)),
-						traces=traces[tracesIdx],
-						alfa="1.0", vlmc=os.path.join("data", "VLMC", "%s.vlmc" % (vlmc)))
-			if(lik is None):
-				lik = np.loadtxt("%s.vlmc.lik" % (vlmc), delimiter=",")
-			else:
-				lik = np.concatenate((lik, np.loadtxt("%s.vlmc.lik" % (vlmc), delimiter=",")), 1);
 	
 def conformance(vlmc=None, traces=None, expName="conformance"):
 	lik = None
