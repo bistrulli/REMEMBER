@@ -33,6 +33,7 @@ The core logic is implemented in `vlmcProcessMining.py` and utilizes external Ja
 .
 ├── .git/                  # Git version control files
 ├── .gitignore             # Specifies intentionally untracked files that Git should ignore
+├── data/                  # Contains example data (e.g., event logs for notebook examples)
 ├── LICENSE                # License file for the project
 ├── README.md              # This README file
 ├── replicateExp.ipynb     # Jupyter Notebook with examples and experimental replications
@@ -53,7 +54,12 @@ You can run REMEMBER notebook directly in Google Colab using the following link:
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bistrulli/REMEMBER/blob/main/replicateExp.ipynb)
 
-Simply open the notebook in Colab, and you can run the cells to see REMEMBER in action.
+Simply open the notebook in Colab. The notebook includes cells to:
+1. Clone this repository.
+2. Install Java 17 (required for the VLMC engine).
+3. Install Python dependencies from `requirements.txt`.
+
+Run these initial setup cells to prepare the Colab environment before executing the REMEMBER tool examples.
 
 ### Local Installation
 
@@ -119,6 +125,7 @@ The `vlmcProcessMining.py` script provides the core functionalities of REMEMBER.
 - **`scripts/`**: This directory contains external Java archives (JARs) that are essential for the VLMC functionalities:
     - `jfitVlmc.jar`: Used for fitting VLMC models and computing likelihoods.
     - `trace2ecf.jar`: Used for converting event log traces into the ECF (Event Collection Format) required by `jfitVlmc.jar`.
+- **`data/`**: Contains example data used by the `replicateExp.ipynb` notebook, such as event logs.
 - **`LICENSE`**: Contains the licensing information for this software.
 - **`.gitignore`**: Specifies files and directories that Git should ignore.
 
