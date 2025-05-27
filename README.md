@@ -49,7 +49,7 @@ The core logic is implemented in `vlmcProcessMining.py` and utilizes external Ja
 
 ### Using with Google Colab
 
-You can run the example notebook directly in Google Colab using the following link:
+You can run REMEMBER notebook directly in Google Colab using the following link:
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bistrulli/REMEMBER/blob/main/replicateExp.ipynb)
 
