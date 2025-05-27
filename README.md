@@ -63,14 +63,13 @@ Ensure you have the following installed:
 - `pip` (Python package manager)
 - Java (>= 17) (Ensure `java` is in your system's PATH)
 
-### Step 1: Clone the Repository
-
+#### Step 1: Clone the Repository
 ```bash
-git clone <repository-url>
-cd REMEMBER # Or your chosen directory name
+git clone https://github.com/bistrulli/REMEMBER.git # Or your chosen directory name
+cd REMEMBER
 ```
 
-### Step 2: Install Dependencies
+#### Step 2: Install Dependencies
 Navigate to the root of the repository and install the required Python dependencies:
 ```bash
 pip install -r requirements.txt
@@ -107,6 +106,8 @@ The `vlmcProcessMining.py` script provides the core functionalities of REMEMBER.
     - Calculate likelihoods.
     - Replicate experiments from the associated paper.
 
+    One of the examples in the notebook utilizes the **Road Traffic Fine Management Process** event log. This dataset is publicly available at [https://data.4tu.nl/articles/dataset/Road_Traffic_Fine_Management_Process/12683249](https://data.4tu.nl/articles/dataset/Road_Traffic_Fine_Management_Process/12683249) and is used to demonstrate practical application of the REMEMBER tool.
+
 ---
 
 ## File Descriptions
@@ -120,6 +121,22 @@ The `vlmcProcessMining.py` script provides the core functionalities of REMEMBER.
     - `trace2ecf.jar`: Used for converting event log traces into the ECF (Event Collection Format) required by `jfitVlmc.jar`.
 - **`LICENSE`**: Contains the licensing information for this software.
 - **`.gitignore`**: Specifies files and directories that Git should ignore.
+
+---
+
+<!--
+## Citation
+If you use REMEMBER in your research or work, please cite our paper (once published):
+
+```
+REMEMBER: Uncovering Complex Temporal Dependencies in Process Logs with Variable Length Markov Chains
+(Submitted to BPM 2025)
+```
+You can also refer to the original paper that introduced the VLMC-based stochastic conformance checking:
+```
+Stochastic Conformance Checking based on Variable-length Markov Chains
+```
+-->
 
 ---
 
