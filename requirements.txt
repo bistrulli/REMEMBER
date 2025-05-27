@@ -1,0 +1,8 @@
+numpy<2
+argparse
+scipy
+pandas
+scikit-learn
+tqdm
+pm4py
+Jupyter
