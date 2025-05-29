@@ -35,7 +35,7 @@ import atexit
 temp_dir=None
 ldir=pathlib.Path(__file__).parent/pathlib.Path("likelyhood")
 	
-def processData(inputFile,idCol=None,activityCol=None):
+def processData(inputFile,idCol="case:concept:name",activityCol="concept:name"):
 	print(f"processData {inputFile}")
 	proc=pd.read_csv(inputFile)
 	cIds=list(dict.fromkeys(proc[idCol]))

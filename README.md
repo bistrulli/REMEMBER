@@ -1,6 +1,6 @@
-# REMEMBER: Uncovering Complex Temporal Dependencies in Process Logs with Variable Length Markov Chains
+# REMEMBER: Uncovering Complex Path Dependencies in Process Logs with Variable Length Markov Chains
 
-This repository contains the source code and necessary files for **REMEMBER**, a tool for analyzing process logs and uncovering complex temporal dependencies using Variable Length Markov Chains (VLMCs). This work has been submitted to the 23rd International Conference on Business Process Management (BPM 2025).
+This repository contains the source code and necessary files for **REMEMBER**, a tool for analyzing process logs and uncovering complex path dependencies using Variable Length Markov Chains (VLMCs). This work has been submitted to the 23rd International Conference on Business Process Management (BPM 2025).
 
 ---
 
