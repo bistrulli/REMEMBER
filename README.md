@@ -163,8 +163,8 @@ Stochastic Conformance Checking based on Variable-length Markov Chains
 ## Citation
 
 Emilio Incerto, Andrea Vandin, Sima Sarv Ahrabi. Stochastic conformance checking based on variable-length Markov chains. Information Systems 2025
-
-[bibtex]()
+- [URL](https://www.sciencedirect.com/science/article/pii/S0306437925000456?dgcid=author)
+- [bibtex](https://github.com/bistrulli/REMEMBER/raw/refs/heads/main/S0306437925000456.bib)
 
 
 ---
