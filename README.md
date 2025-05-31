@@ -5,6 +5,10 @@ This repository contains the source code, instructions, and examples for **REMEM
 - It analyzes process logs to uncover complex path dependencies
 - It is based on Variable Length Markov Chains (VLMCs).
 
+> __Test it online on Colab without any installation!__<br/>
+> [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bistrulli/REMEMBER/blob/main/replicateExp.ipynb)
+
+
 **REMEMBER** is supported by two publications: 
 - Theoretical and experimental aspects: 
   - Emilio Incerto, Andrea Vandin, Sima Sarv Ahrabi. Stochastic conformance checking based on variable-length Markov chains. Information Systems 2025
@@ -29,13 +33,16 @@ This repository contains the source code, instructions, and examples for **REMEM
 
 ## Overview
 
-REMEMBER is a Python-based tool that implements algorithms for process mining using VLMCs. It allows users to:
-- Process event logs (e.g., in XES format, CSV).
+REMEMBER is a Python-based command-line tool that implements algorithms for process mining using VLMCs. It allows users to:
+- Process event logs (e.g., in XES or CSV formats).
 - Mine VLMC models from these logs.
-- Compute likelihood of traces based on the mined models.
-- Perform conformance checking and other advanced analyses.
+- Compute likelihood of traces based on the mined models (i.e., the probability of a trace in a model).
+- Perform conformance checking of a log against a model, and further advanced analyses.
+- Being Python-based, it can be easily integrated with [pm4py](https://pypi.org/project/pm4py/)
 
-The core logic is implemented in `vlmcProcessMining.py` and utilizes external Java libraries for specific VLMC operations.
+The core logic is implemented in `vlmcProcessMining.py`. 
+- It utilizes external Java libraries, transparently to the user, for specific VLMC operations.
+
 
 ---
 
