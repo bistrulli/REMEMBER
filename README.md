@@ -67,7 +67,7 @@ The core logic is implemented in `vlmcProcessMining.py`.
 
 ## Setup Instructions
 
-### Using with Google Colab
+### Use it online in Google Colab: __NO INSTALLATION REQUIRED!__
 
 You can run REMEMBER notebook directly in Google Colab using the following link:
 
@@ -100,7 +100,7 @@ Navigate to the root of the repository and install the required Python dependenc
 pip install -r requirements.txt
 ```
 
-It's recommended to use a virtual environment:
+It is recommended to use a virtual environment:
 ```bash
 python -m venv venv
 source venv/bin/activate   # On Windows, use: venv\Scripts\activate
@@ -126,12 +126,12 @@ The `vlmcProcessMining.py` script provides the core functionalities of REMEMBER.
     jupyter notebook
     ```
 2.  Open `replicateExp.ipynb`. This notebook contains various examples demonstrating how to:
-    - Load and preprocess event logs.
-    - Mine VLMC models.
-    - Calculate likelihoods.
+    - Load and preprocess event logs;
+    - Mine VLMC models;
+    - Calculate likelihoods;
     - Replicate experiments from the associated paper.
 
-    One of the examples in the notebook utilizes the **Road Traffic Fine Management Process** event log. This dataset is publicly available at [https://data.4tu.nl/articles/dataset/Road_Traffic_Fine_Management_Process/12683249](https://data.4tu.nl/articles/dataset/Road_Traffic_Fine_Management_Process/12683249) and is used to demonstrate practical application of the REMEMBER tool.
+    One of the examples in the notebook utilizes the **Road Traffic Fine Management Process** event log. This dataset is publicly available at [https://data.4tu.nl/articles/dataset/Road_Traffic_Fine_Management_Process/12683249](https://data.4tu.nl/articles/dataset/Road_Traffic_Fine_Management_Process/12683249) and is used to demonstrate a practical application of the REMEMBER tool.
 
 ---
 
@@ -169,8 +169,7 @@ Stochastic Conformance Checking based on Variable-length Markov Chains
 
 ## Citation
 
-Emilio Incerto, Andrea Vandin, Sima Sarv Ahrabi. Stochastic conformance checking based on variable-length Markov chains. Information Systems 2025
-- [URL](https://www.sciencedirect.com/science/article/pii/S0306437925000456?dgcid=author)
+Emilio Incerto, Andrea Vandin, Sima Sarv Ahrabi. [Stochastic conformance checking based on variable-length Markov chains](https://www.sciencedirect.com/science/article/pii/S0306437925000456?dgcid=author). Information Systems 2025
 - [bibtex](https://github.com/bistrulli/REMEMBER/raw/refs/heads/main/S0306437925000456.bib)
 
 
