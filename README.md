@@ -1,6 +1,18 @@
-# REMEMBER: Uncovering Complex Path Dependencies in Process Logs with Variable Length Markov Chains
+# REMEMBER: Uncovering Complex Path Dependencies in Process Logs for accurate Stochastic Conformance Checking
 
-This repository contains the source code and necessary files for **REMEMBER**, a tool for analyzing process logs and uncovering complex path dependencies using Variable Length Markov Chains (VLMCs). This work has been submitted to the 23rd International Conference on Business Process Management (BPM 2025).
+This repository contains the source code, instructions, and examples for **REMEMBER**:
+- A tool for efficient and accurate Stochastic Conformance Checking
+- It analyzes process logs to uncover complex path dependencies
+- It is based on Variable Length Markov Chains (VLMCs).
+
+**REMEMBER** is supported by two publications: 
+- Theoretical and experimental aspects: 
+  - Emilio Incerto, Andrea Vandin, Sima Sarv Ahrabi. Stochastic conformance checking based on variable-length Markov chains. Information Systems 2025
+  - Main text available [here](https://www.sciencedirect.com/science/article/pii/S0306437925000456?dgcid=author)
+  - Replicability material available [here](https://www.sciencedirect.com/science/article/pii/S0306437925000456?dgcid=author#b22)
+- Tool paper:
+  - Emilio Incerto, Andrea Vandin. REMEMBER: Uncovering Complex Path Dependencies in Process Logs for accurate Stochastic Conformance Checking. Submitted to the 23rd International Conference on Business Process Management (BPM 2025).
+  - This repository serves as replicability material for the tool paper. 
 
 ---
 
