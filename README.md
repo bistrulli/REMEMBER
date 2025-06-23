@@ -6,7 +6,7 @@ This repository contains the source code, instructions, and examples for **REMEM
 - It is based on Variable Length Markov Chains (VLMCs).
 
 > __Test it online on Colab without any installation!__<br/>
-> [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bistrulli/REMEMBER/blob/main/replicateExp.ipynb)
+> [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bistrulli/REMEMBER/blob/main/REMEMBER.ipynb)
 
 
 **REMEMBER** is supported by two publications: 
