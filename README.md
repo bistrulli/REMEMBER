@@ -71,7 +71,7 @@ The core logic is implemented in `vlmcProcessMining.py`.
 
 You can run REMEMBER notebook directly in Google Colab using the following link:
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bistrulli/REMEMBER/blob/main/replicateExp.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bistrulli/REMEMBER/blob/main/REMEMBER.ipynb)
 
 Simply open the notebook in Colab. The notebook includes cells to:
 1. Clone this repository.
@@ -125,7 +125,7 @@ The `vlmcProcessMining.py` script provides the core functionalities of REMEMBER.
     ```bash
     jupyter notebook
     ```
-2.  Open `replicateExp.ipynb`. This notebook contains various examples demonstrating how to:
+2.  Open `REMEMBER.ipynb`. This notebook contains various examples demonstrating how to:
     - Load and preprocess event logs;
     - Mine VLMC models;
     - Calculate likelihoods;
