@@ -15,7 +15,7 @@ This repository contains the source code, instructions, and examples for **REMEM
   - Main text available [here](https://www.sciencedirect.com/science/article/pii/S0306437925000456?dgcid=author)
   - Replicability material available [here](https://www.sciencedirect.com/science/article/pii/S0306437925000456?dgcid=author#b22)
 - Tool paper:
-  - Emilio Incerto, Andrea Vandin. REMEMBER: Uncovering Complex Path Dependencies in Process Logs for accurate Stochastic Conformance Checking. Submitted to the 23rd International Conference on Business Process Management (BPM 2025).
+  - Emilio Incerto, Andrea Vandin. REMEMBER: Uncovering Complex Path Dependencies in Process Logs for accurate Stochastic Conformance Checking. 
   - This repository serves as replicability material for the tool paper. 
 
 ---
